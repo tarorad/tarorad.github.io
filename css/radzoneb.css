@@ -24,16 +24,34 @@ height:300px;
 font-size:170px;
 position:absolute;
 top:50px;
+left:-110px;
+right:-80px;
+}
+
+.bgweb {
+font-size:150px;
+position:absolute;
+top:50px;
 left:-200px;
 right:-80px;
 }
 
-.bgtext,.footertext {
+.bgtext,.footertext,.bgweb {
 color:#F0F0F0;
 font-family:Georgia, Helvetica, Arial, sans-serif;
 cursor:default;
 position:absolute;
 font-style:italic;
+}
+
+.webmaster {
+margin-left:-230px;
+width:401px;
+left:50%;
+position:absolute;
+margin-top:-10px;
+background-image:url(../images/webmasterb.png);
+height:113px;
 }
 
 .footertext {
@@ -44,7 +62,7 @@ text-align:center;
 width:500px;
 }
 
-div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8,div#text9 {
+div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8,div#text9,div#text10 {
 color:#909090;
 position:absolute;
 font-size:2em;
@@ -55,44 +73,44 @@ cursor:default;
 
 div#text1 {
 font-size:29px;
-top:-65px;
+top:0;
 left:0;
 }
 
 div#text2 {
-font-size:35px;
-top:305px;
-left:100px;
+font-size:45px;
+top:115px;
+left:35px;
 }
 
 div#text3 {
 font-size:35px;
-top:180px;
-left:60px;
+top:100px;
+left:340px;
 }
 
 div#text4 {
-font-size:40px;
-top:-15px;
-left:-100px;
+font-size:50px;
+top:230px;
+left:-25px;
 }
 
-div#text5 {
+div#text5 {
 font-size:39px;
-top:150px;
+top:200px;
 left:260px;
 }
 
 div#text6 {
-font-size:30px;
-top:45px;
+font-size:60px;
+top:-5px;
 left:200px;
 }
 
 div#text7 {
-font-size:39px;
-top:370px;
-left:-50px;
+font-size:32px;
+top:280px;
+left:360px;
 }
 
 div#text8 {
@@ -102,13 +120,24 @@ left:-20px;
 }
 
 div#text9 {
-font-size:35px;
-top:100px;
+font-size:40px;
+top:140px;
+left:-115px;
+}
+
+div#text10 {
+font-size:50px;
+top:120px;
 left:-115px;
 }
 
 div#text1 a:hover span {
 top:-3px;
+left:0;
+}
+
+div#text2 a:hover span {
+top:-10px;
 left:0;
 }
 
@@ -122,7 +151,7 @@ top:-5px;
 left:25px;
 }
 
-div#text9 a:hover span {
+div#text9 a:hover span,div#text10 a:hover span {
 top:-1px;
 left:25px;
 }
@@ -154,10 +183,14 @@ height:400px;
 overflow:auto;
 font-family:Verdana, Helvetica, Arial, sans-serif;
 font-size:13px;
-color:#effff5;
+font-weight:700;
+color:#000;
 text-align:justify;
 padding-right:8px;
-background-image:url(../images/bckgnd.png);
+background:none;
+background-color:rgba(239,239,239,0.6);
+filter:progid: DXImageTransform.Microsoft.gradient(startColorstr=#99EFEFEF,endColorstr=#99EFEFEF);
+zoom:1;
 margin:3px 3px 3px 0;
 }
 
@@ -173,7 +206,7 @@ text-align:center;
 font-family:Verdana, Helvetica, Arial, sans-serif;
 font-weight:700;
 font-size:12px;
-border:1px solid #222;
+border:1px solid #BBB;
 }
 
 div#haut {
@@ -201,42 +234,38 @@ top:-87px;
 left:-69px;
 }
 
-div#urltext,div#inner div#content a:link,div#inner div#content a:visited,div#inner a:hover,div#inner a:hover span {
-color:red;
-}
-
 div#content div#titlebar {
 border:1px solid #222;
 background:#000;
 font-weight:400;
-color:#ff7c11;
+color:red;
 }
 
 .titleblock {
 font-family:Verdana, Helvetica, Arial, sans-serif;
 font-size:12px;
-color:#ff7c11;
+color:red;
 border:1px solid #222;
 margin:10px 6px 10px 2px;
 padding:4px;
 }
 
-.titleblock span {
-color:#ff7c11;
+#urltext a:hover {
+color:#1c1d1a;
 }
 
 a img {
 border:0;
 }
 
-div#text2 a:hover span,div#text6 a:hover span,div#text7 a:hover span {
-left:0;
-top:-4px;
-}
-
 div#text4 a:hover span,div#text5 a:hover span {
 left:0;
 top:-6px;
+}
+
+div#text6 a:hover span,div#text7 a:hover span {
+left:0;
+top:-4px;
 }
 
 div#inner a span,div#inner a:visited span {
@@ -248,15 +277,19 @@ text-decoration:none;
 }
 
 div#inner div#close a:link,div#inner div#haut a:link,div#inner div#close a:visited,div#inner div#haut a:visited {
-color:red;
+color:#212121;
 cursor:default;
 }
 
-#urltext a:link,#urltext a:visited,#urltext a:hover,#urltext a:active {
+div#urltext,div#inner div#content a:link,div#inner div#content a:visited,div#inner a:hover,div#inner a:hover span,.titleblock span {
+color:red;
+}
+
+#urltext a:link,#urltext a:visited,#urltext a:active {
 color:#444;
 }
 
-#sliderWrap {
+ #sliderWrap {
   width: 118px;
   margin: 0 auto;
 }
