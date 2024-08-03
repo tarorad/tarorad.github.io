@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Erreur 404
+    </title>
+    <style type="text/css">
+    div.c5 {
+        margin: 0 auto;
+        padding: 30px 10px;
+        position: relative;
+        width: 600px;
+      }
+
+      div.c4 {
+        position: relative;
+        width: 600px;
+        height: 252px;
+        background: url(../error/rz.png)}
+    object.c3 {
+          position:relative;
+        }
+        img.c2 {
+          position: absolute;
+          left: 0;
+        }
+        embed.c1 {
+          position: relative;
+        }
+    body {
+        background-color: #262626;
+      }
+
+      p {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        color: #CCCCCC;
+        text-align: center;
+      }
+
+      h2 {
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        font-size: 160%;
+        color: #709c47;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      a:link {
+        color: #FF8000;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #FF8000;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #FF0000;
+        text-decoration: none;
+      }
+   </style>
+  </head>
+  <body>
+    <img src="../error/images1.png" style="margin-top: -7px; opacity: 0.5" alt=""><img src="../error/images2.png"  style="float: right; margin-top: -7px; opacity: 0.5;" alt="">
+    <h2>
+      Erreur 404 : La page demand&eacute;e est introuvable.
+    </h2>
+    <p>
+      Le lien sur lequel vous venez de cliquer redirige vers une page inexistante.
+      <br>
+      <br>
+      <a href="../default.htm">Retour &agrave; la page d'accueil du site</a>
+    </p>
+    <div align="center">
+      <div class="c5">
+        <div class="c4">
+          <video muted="muted" autoplay="autoplay" poster="../error/rz.files/rz.png" width="600" height="252" loop="loop"
+          onended="var v=this;setTimeout(function(){v.play()},300)"><source src="../error/rz.files/rz.mp4" type="video/mp4">
+          <source src="../error/rz.files/rz.webm" type="video/webm"> <object type="application/x-shockwave-flash" data=
+          "rz.files/flashfox.swf" width="600" height="252" class="c3">
+            <param name="movie" value="rz.files/flashfox.swf">
+             <param name="allowFullScreen" value="true">
+             <param name="flashVars" value=
+            "autoplay=true&amp;controls=false&amp;fullScreenEnabled=true&amp;posterOnEnd=false&amp;loop=true&amp;poster=../error/rz.files/rz.png&amp;src=../error/rz.files/rz.mp4">
+             <embed src="rz.files/flashfox.swf" width="600" height="252" class="c1" flashvars=
+            "autoplay=true&amp;controls=false&amp;fullScreenEnabled=true&amp;posterOnEnd=false&amp;loop=true&amp;poster=http://radservebeer.free.fr/error/rz.files/rz.png&amp;src=http://radservebeer.free.fr/error/rz.files/rz.mp4"
+            allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage=
+            "http://www.adobe.com/go/getflashplayer_en"><img alt="rz" src="../error/rz.files/rz.png" class="c2" width="600"
+            height="252" title="Video playback is not supported by your browser">
+          </object></video>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
